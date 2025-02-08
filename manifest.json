@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Safe amazon",
+  "version": "1.0",
+  "description": "Hide personal information from Amazon product pages",
+  "icons": {
+    "128": "128.png"
+  },
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "matches": ["https://www.amazon.co.jp/*", "https://www.amazon.com/*"]
+  }]
+}

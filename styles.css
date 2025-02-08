@@ -1,0 +1,9 @@
+div#nav-global-location-slot {
+  display: none !important;
+}
+a#nav-link-accountList > div.nav-line-1-container > span.nav-line-1 {
+  display: none !important;
+}
+div#contextualIngressPtLabel_deliveryShortLine {
+  display: none !important;
+}
